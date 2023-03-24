@@ -8,7 +8,7 @@
                 <ul class="navbar-nav">
                     <div class="navbar-nav__right">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="index.php?page=projets">Mes projets réalisés</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Link</a>
