@@ -1,0 +1,26 @@
+%coast-navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: $colour-secondary;
+    height: 10%;
+}
+
+%welcome-text-align{
+    width: 100%;
+    text-align: center;
+}
+
+%form-input{
+    background-color: $background-color-primary;
+}
+
+%form-label-legend{
+    text-align: center;
+    color: $colour-secondary; 
+}
+
+%position-relative-to-header{
+    position: relative;
+    top: 20%;
+}

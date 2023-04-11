@@ -1,0 +1,75 @@
+#picture-welcome{
+    background-color: $background-color-primary;
+    border-radius: 25px;
+}
+
+.welcome-form-space-champ{
+    &.welcome-form-space-champ__texte-welcome{
+        width: 100%;
+        background: none;
+        label{
+             font-size: 20px; 
+        }
+    }
+    #text-welcome{
+        width: 100%;
+        background-color: $background-color-primary;
+        border-radius: 10px;
+    }
+}
+
+.welcome{
+    font-family: $font-primary;
+    font-size: 20px;
+    min-height: 100vh;
+    width: 100%;
+
+    &-form{
+        width: 100%;
+        @extend %position-relative-to-header;
+        fieldset{
+            text-align: center;
+            width: 100%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+        }
+        &-space{
+            width: 100%;
+            display: flex;
+        }
+        &-space-champ{
+            @extend %form-input;
+            padding: 2%;
+            width: 100%;
+            margin: 0 3%;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            @extend %welcome-text-align;
+            &__file{
+                position: relative;
+                margin-right: auto;
+                margin-left: auto;
+                top: 50%;
+                transform: translateY(-50%);
+                input{
+                    width: 100%;
+                }
+            }
+        }
+        &-space__btn{
+            margin: 2% 0;
+            @extend %welcome-text-align;
+        }
+        &-space__line{
+            height: 50vh;
+            border: 2px solid $colour-secondary;
+            border-radius: 50%;
+            box-shadow: 0px 0px 5px 5px $colour-secondary;
+            position: relative;
+            top: 0vh;
+            transform: translateX(-50%);
+        }
+    }
+}

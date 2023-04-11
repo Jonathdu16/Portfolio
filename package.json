@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Projet Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./views/scss/main.scss:./views/css/style.css"
+  },
+  "keywords": [
+    "portjoncda"
+  ],
+  "author": "Jonathan COURTOIS",
+  "license": "ISC"
+}

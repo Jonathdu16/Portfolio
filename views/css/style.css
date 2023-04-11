@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+.welcome-form-space__btn, .welcome-form-space-champ {
+  width: 100%;
+  text-align: center;
+}
+
+.connexion-form-space__btn input, .connexion-form-space-champ input, .welcome-form-space-champ {
+  background-color: rgba(217, 217, 217, 0.5);
+}
+
+.connexion label, .connexion legend {
+  text-align: center;
+  color: #CFDBD5;
+}
+
+.connexion-form, .welcome-form {
+  position: relative;
+  top: 20%;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #333533;
+}
+body .body {
+  padding-top: 200px;
+  width: 100%;
+  border: 2px solid #CFDBD5;
+  background-color: #333533;
+  min-height: 100vh;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.nav-space-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #CFDBD5;
+  height: 10%;
+}
+
+.navbar {
+  width: 100%;
+}
+.navbar-item {
+  width: 100%;
+}
+.navbar-nav {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .navbar a {
+    color: #333533;
+    font-family: "Arsenal", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 2.25vw;
+  }
+  .navbar .nav-item-brand {
+    display: none;
+  }
+  .navbar-nav__right {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #CFDBD5;
+    height: 10%;
+  }
+  .navbar-nav__left {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #CFDBD5;
+    height: 10%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar a {
+    color: #333533;
+    font-family: "Arsenal", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.95vw;
+  }
+  .navbar a p {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0 0 3vw 3vw;
+    background: linear-gradient(180deg, rgb(207, 219, 213), rgba(207, 219, 213, 0.5));
+    font-family: "Lobster", cursive;
+    color: rgba(51, 53, 51, 0.5);
+    text-align: center;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 2px black;
+    font-size: 3vw;
+  }
+  .navbar-nav__right {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #CFDBD5;
+    height: 10%;
+  }
+  .navbar-nav__left {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #CFDBD5;
+    height: 10%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar a {
+    font-size: 1.5vw;
+  }
+  .navbar a p {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0 0 3vw 3vw;
+    background: linear-gradient(180deg, rgb(207, 219, 213), rgba(207, 219, 213, 0.5));
+    font-family: "Lobster", cursive;
+    color: rgba(51, 53, 51, 0.5);
+    text-align: center;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 2px black;
+    font-size: 2vw;
+  }
+  .navbar-nav__right {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #CFDBD5;
+    height: 10%;
+  }
+  .navbar-nav__left {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #CFDBD5;
+    height: 10%;
+  }
+}
+
+#picture-welcome {
+  background-color: rgba(217, 217, 217, 0.5);
+  border-radius: 25px;
+}
+
+.welcome-form-space-champ.welcome-form-space-champ__texte-welcome {
+  width: 100%;
+  background: none;
+}
+.welcome-form-space-champ.welcome-form-space-champ__texte-welcome label {
+  font-size: 20px;
+}
+.welcome-form-space-champ #text-welcome {
+  width: 100%;
+  background-color: rgba(217, 217, 217, 0.5);
+  border-radius: 10px;
+}
+
+.welcome {
+  font-family: "Arsenal", sans-serif;
+  font-size: 20px;
+  min-height: 100vh;
+  width: 100%;
+}
+.welcome-form {
+  width: 100%;
+}
+.welcome-form fieldset {
+  text-align: center;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.welcome-form-space {
+  width: 100%;
+  display: flex;
+}
+.welcome-form-space-champ {
+  padding: 2%;
+  width: 100%;
+  margin: 0 3%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.welcome-form-space-champ__file {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.welcome-form-space-champ__file input {
+  width: 100%;
+}
+.welcome-form-space__btn {
+  margin: 2% 0;
+}
+.welcome-form-space__line {
+  height: 50vh;
+  border: 2px solid #CFDBD5;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 5px #CFDBD5;
+  position: relative;
+  top: 0vh;
+  transform: translateX(-50%);
+}
+
+.connexion {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.connexion-form-space-champ {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.connexion-form-space-champ input {
+  margin: 5%;
+  border-radius: 15px;
+}
+.connexion-form-space__btn {
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+}
+.connexion-form-space__btn input {
+  margin: 5%;
+  border: 2px solid #CFDBD5;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: $colour-primary;
+    .body{
+        padding-top: 200px;
+        width: 100%;
+        border: 2px solid $colour-secondary;
+        background-color: $colour-primary;
+        min-height: 100vh;
+    }
+}

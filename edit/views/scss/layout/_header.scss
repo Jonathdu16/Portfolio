@@ -1,0 +1,63 @@
+header{
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+    &-item{
+        width: 100%;
+    }
+    &-nav{
+        width: 100%;
+    }
+    @media screen and (max-width: 767px){
+        a{
+            color: $menu-navbar;
+            @include main-font-navbar;
+            font-size: 2.25vw;
+        }
+        .nav-item-brand{
+            display: none;
+        }
+        &-nav__right{
+            @include coast-navbar;
+        }
+        &-nav__left{
+            @include coast-navbar;
+        }
+    }
+    @media screen and (min-width: 768px){
+        a{
+            color: $menu-navbar;
+            @include main-font-navbar;
+            font-size: 1.95vw;
+            p{
+                @include logo-font-navbar;
+                font-size: 3vw;
+            }
+        }
+        &-nav__right{
+            @include coast-navbar;
+        }
+        &-nav__left{
+            @include coast-navbar;
+        }
+    }
+    
+    @media screen and (min-width: 992px){
+        a{
+            font-size: 1.5vw;
+            p{
+                @include logo-font-navbar;
+                font-size: 2vw;
+            }
+        }
+        &-nav__right{
+            @include coast-navbar;
+        }
+        &-nav__left{
+            @include coast-navbar;
+        }
+    }
+}
+

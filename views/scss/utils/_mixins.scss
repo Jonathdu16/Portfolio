@@ -1,0 +1,30 @@
+@mixin main-font-navbar{
+    font-family: $font-primary;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin logo-font-navbar{
+    width: 100%;
+    padding: 10px;
+    border-radius: 0 0 3vw 3vw;
+    background: linear-gradient(
+        180deg,
+        rgb(207, 219, 213),
+        rgba(207, 219, 213, 0.5)
+    );
+    font-family: $font-logo-navbar;
+    color: rgba(51, 53, 51, 0.5);
+    text-align: center;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 2px black;
+}
+
+@mixin coast-navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: $colour-secondary;
+    height: 10%;
+}
+
